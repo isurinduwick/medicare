@@ -16,11 +16,3 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-
-apply plugin: 'com.google.gms.google-services'
-
-dependencies {
-    classpath 'com.google.gms:google-services:4.3.15'
-}
-
-
