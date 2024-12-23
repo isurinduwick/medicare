@@ -17,9 +17,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final List<Map<String, String>> _onboardingData = [
     {
       "image": "assets/360_F_707893394_5DEhlBjWOmse1nyu0rC9T7ZRvsAFDkYC.jpg",
-      "title": "Medicare simplifies healthcare",
+      "title": "Medico simplifies healthcare",
       "description":
-          "Medicare simplifies healthcare with features like appointment booking, AI-driven health insights, and medication reminders. Manage your health effortlessly—all in one app."
+          "Medico simplifies healthcare with features like appointment booking, AI-driven health insights, and medication reminders. Manage your health effortlessly—all in one app."
     },
     {
       "image": "assets/giphy.gif",
