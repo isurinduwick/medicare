@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97564449937",
+    "project_id": "fir-authmedico",
+    "storage_bucket": "fir-authmedico.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97564449937:android:6face91a9cb8e5ef14b330",
+        "android_client_info": {
+          "package_name": "medico.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97564449937-6j91har4rq1qvl9hlplsl0msvhs3e9jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_8UdZhJIu6d0kaMO74DLzdJi5EKRDTDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97564449937-6j91har4rq1qvl9hlplsl0msvhs3e9jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

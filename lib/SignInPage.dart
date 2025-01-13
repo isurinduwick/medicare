@@ -11,6 +11,7 @@ class SignInPage extends StatefulWidget {
 }
 
 class _SignInPageState extends State<SignInPage> {
+  
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -24,10 +25,11 @@ class _SignInPageState extends State<SignInPage> {
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
       );
-      // Navigate to the home page or dashboard
+      
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text("Login Successful!")),
       );
+      // Navigate to the home page
     } on FirebaseAuthException catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(e.message ?? "Login Failed")),
