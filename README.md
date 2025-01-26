@@ -1,16 +1,61 @@
-# medico
+# Medico
 
-A new Flutter project.
+Medico is a Flutter-based mobile application designed to provide users with essential medical-related features, offering convenience and ease of access to healthcare resources. The project incorporates advanced technologies for secure authentication, geolocation, and data management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User Authentication**: 
+  - Secure login using Firebase Authentication.
+  - Facebook Authentication for social login options.
 
-A few resources to get you started if this is your first Flutter project:
+- **Geolocation**: 
+  - Integration with Google Maps for location-based services.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Local Database Management**:
+  - Uses Realm for efficient offline data handling.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Data Integration**:
+  - REST APIs for seamless data exchange.
+
+- **Version Control**:
+  - Git for collaborative development and version management.
+
+## Technologies Used
+
+- **Flutter**: The main framework for cross-platform mobile app development.
+- **Firebase Authentication**: Ensures secure user login.
+- **Google Maps API**: For implementing geolocation features.
+- **Realm**: For managing local databases.
+- **REST API**: For backend data communication.
+- **Git**: For version control and team collaboration.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/isurinduwick/medico.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd medico
+   ```
+3. Install the dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the application:
+   ```bash
+   flutter run
+   ```
+
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Developer
+[Isuru Wick](https://github.com/isurinduwick)
+
