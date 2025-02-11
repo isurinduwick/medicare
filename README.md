@@ -1,6 +1,6 @@
-# Medico
+# Medicare
 
-Medico is a Flutter-based mobile application designed to provide users with essential medical-related features, offering convenience and ease of access to healthcare resources. The project incorporates advanced technologies for secure authentication, geolocation, and data management.
+Medicare is a Flutter-based mobile application designed to provide users with essential medical-related features, offering convenience and ease of access to healthcare resources. The project incorporates advanced technologies for secure authentication, geolocation, and data management.
 
 ## Features
 
