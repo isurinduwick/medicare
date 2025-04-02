@@ -1,61 +1,51 @@
-# Medicare
+# MediCare
 
-Medicare is a Flutter-based mobile application designed to provide users with essential medical-related features, offering convenience and ease of access to healthcare resources. The project incorporates advanced technologies for secure authentication, geolocation, and data management.
+![MediCare](https://github.com/isurinduwick/medicare/blob/main/assets/Untitled%20design%20(4).png)
 
-## Features
+MediCare is a healthcare management web application that helps users book doctor appointments, manage prescriptions, and access medical records seamlessly.
 
-- **User Authentication**: 
-  - Secure login using Firebase Authentication.
-  - Facebook Authentication for social login options.
+## 📌 Table of Contents
+- [Features](#-features)
+- [Live Demo](#-live-demo)
+- [Installation](#-installation)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-- **Geolocation**: 
-  - Integration with Google Maps for location-based services.
+## 🏥 Features
+✅ Easy appointment booking with doctors.  
+✅ Secure prescription and medical record management.  
+✅ User-friendly dashboard for patients and doctors.  
+✅ Responsive and modern UI.  
 
-- **Local Database Management**:
-  - Uses Realm for efficient offline data handling.
+## 🚀 Live Demo
+🔗 [Click here to visit MediCare](https://isurinduwick.github.io/medicare/)
 
-- **Data Integration**:
-  - REST APIs for seamless data exchange.
+## 🛠️ Installation
+To run this project locally, follow these steps:
 
-- **Version Control**:
-  - Git for collaborative development and version management.
-
-## Technologies Used
-
-- **Flutter**: The main framework for cross-platform mobile app development.
-- **Firebase Authentication**: Ensures secure user login.
-- **Google Maps API**: For implementing geolocation features.
-- **Realm**: For managing local databases.
-- **REST API**: For backend data communication.
-- **Git**: For version control and team collaboration.
-
-## Installation
-
-1. Clone the repository:
+1️⃣ Clone the repository:
    ```bash
-   git clone https://github.com/isurinduwick/medico.git
+   git clone https://github.com/isurinduwick/medicare.git
    ```
-2. Navigate to the project directory:
+2️⃣ Navigate to the project folder:
    ```bash
-   cd medico
+   cd medicare
    ```
-3. Install the dependencies:
-   ```bash
-   flutter pub get
-   ```
-4. Run the application:
-   ```bash
-   flutter run
-   ```
+3️⃣ Open `index.html` in a browser.
 
 
 
-## License
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve this project:
+- Fork the repository.
+- Create a new branch (`git checkout -b feature-branch`).
+- Commit your changes (`git commit -m 'Add some feature'`).
+- Push to the branch (`git push origin feature-branch`).
+- Open a Pull Request.
 
-This project is licensed under the [MIT License](LICENSE).
+## 📜 License
+This project is licensed under the MIT License.
 
 ---
-
-### Developer
-[Isuru Wick](https://github.com/isurinduwick)
-
+Developed with ❤️ by [Isurindu Wickramasinghe](https://github.com/isurinduwick)
